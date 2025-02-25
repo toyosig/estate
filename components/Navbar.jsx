@@ -6,7 +6,7 @@ import { BsSearch } from 'react-icons/bs';
 import { FiKey } from 'react-icons/fi';
 
 const Navbar = () => (
-    <Flex p={'2'} borderButton={'1px'} borderColor={'grey.100'} borderBottom={'1px'}>
+    <Flex p={'2'} border={'1px'} borderColor={'gray.100'} borderBottom={'1px'}>
         <Box fontSize={'3xl'} color={'blue.400'} fontWeight={'bold'}>
             <Link href='/' paddingLeft='2' >GTd-Real</Link>
         </Box>
